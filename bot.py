@@ -4,7 +4,7 @@ from telebot import types
 import os  # Для удаления файла
 import sqlite3
 
-API_TOKEN = "6913930971:AAGOoSM3chhSiyy-SBvW2ZrBZ2nUrgqkOq0"
+API_TOKEN = "YOUR API TOKEN TELEGRAM"
 SECRET_KEY = "7324"
 bot = telebot.TeleBot(API_TOKEN)
 con = sqlite3.connect("datebase.db", check_same_thread=False)
